@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link rel="icon" href="data:image/png;base64,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">
+
+    <title>Real Estate Hub</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper blue-grey darken">
+            <a href="#" class="brand-logo">Real Estate Hub</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="">Sass</a></li>
+                <li><a href="">Components</a></li>
+                <li><a href="">JavaScript</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="">
+        </div>
+
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/images/0ece7c30a845698b228e66aafc32c4f9.jpg" />
+        </div>
+
+    </div>
+
+    <div class="container">
+        <h1 class="">Research</h1>
+        <a class="waves-effect waves-light btn-large red" href="https://www.redfin.com/" target="_blank"><i class="material-icons right">house</i>Redfin</a>
+        <a class="waves-effect waves-light btn-large blue" href="https://www.zillow.com/" target="_blank"><i class="material-icons right">house</i>Zillow</a>
+        <a class="waves-effect waves-light btn-large green" href="https://www.trulia.com/" target="_blank"><i class="material-icons right">house</i>Trulia</a>
+        <a class="waves-effect waves-light btn-large" href="https://www.realtor.com/" target="_blank"><i class="material-icons right">house</i>Realtor</a>
+
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img class="responsive-img" src="./assets/images/2jan1_7_1348x500.jpg" />
+        </div>
+    </div>
+
+
+    <footer class="page-footer blue-grey darken">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact Us</h5>
+                    <p class="grey-text text-lighten-4">GCRental510@Gmail.com</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Tools</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://docs.google.com/spreadsheets/d/16L1bHTgGgVI46zTYgLUPoWtuLtrI3LVUseShFmYmCv4/edit?usp=sharing" target="_blank">Spreadsheet</a></li>
+                        <!-- <a class="waves-effect waves-light btn-large green" href="https://docs.google.com/spreadsheets/d/16L1bHTgGgVI46zTYgLUPoWtuLtrI3LVUseShFmYmCv4/edit?usp=sharing" target="_blank"><i class="material-icons right">house</i>Our Spreadsheet</a> -->
+                        <!-- <a class="waves-effect waves-light btn-large green" href="https://www.nerdwallet.com/mortgages/mortgage-calculator/calculate-mortgage-payment" target="_blank"><i class="material-icons right">cloud</i>Mortgage Calculator</a> -->
+                        <li><a class="grey-text text-lighten-3" href="https://www.nerdwallet.com/mortgages/mortgage-calculator/calculate-mortgage-payment" target="_blank">Mortgage Calculator</a></li>
+                        <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li> -->
+                        <!-- <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 GCRental All Rights Reserved
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">More Links</a> -->
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/hub.js"></script>
+</body>
+
+</html>
