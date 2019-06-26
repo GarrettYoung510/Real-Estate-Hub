@@ -2,6 +2,10 @@
 <html>
 
 <head>
+    <!-- import google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
@@ -29,13 +33,21 @@
     </nav> -->
 
     <nav>
-        <div class="nav-wrapper blue-grey darken">
-            <a href="#" class="brand-logo center">Real Estate Hub</a>
+        <div class="navbar-fixed nav-wrapper blue-grey darken z-depth-3">
+            <a href="./index.html" class="brand-logo center" id="logo"><i class="material-icons left">search</i>Real Estate Hub</a>
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
+        </div>
+        <div class="row">
+            <div class="col m4"></div>
+            <div class="col s12 m4">
+                <div class="card-panel teal z-depth-5">
+                    <span class="white-text" id="about">Choose a website to search properties, then use the analysis tools to help in the decision process!</span>
+                </div>
+            </div>
         </div>
     </nav>
 
@@ -50,7 +62,16 @@
         <div class="parallax">
             <img src="./assets/images/0ece7c30a845698b228e66aafc32c4f9.jpg" />
         </div>
+
     </div>
+
+    <!-- 
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/images/0ece7c30a845698b228e66aafc32c4f9.jpg" />
+        </div>
+    </div> -->
 
     <div class="container">
         <h1 class="">Search Properties</h1>
@@ -62,20 +83,38 @@
 
     <div class="parallax-container">
         <div class="parallax">
-            <img class="responsive-img" src="./assets/images/2jan1_7_1348x500.jpg" />
+            <img class="responsive-img" src="./assets/images/ANALYSIS.png" />
+        </div>
+        <div class="row">
         </div>
     </div>
+
 
     <div class="container">
         <h1 class="">Analysis Tools</h1>
         <a class="waves-effect waves-light btn-large red" href="https://www.nerdwallet.com/mortgages/mortgage-calculator/calculate-mortgage-payment" target="_blank"><i class="material-icons right">money</i>Mortgage Calculator</a>
         <a class="waves-effect waves-light btn-large blue" href="https://www.besmartee.com/mortgage-calculator/closing-cost-calculator" target="_blank"><i class="material-icons right">money</i>Closing Costs</a>
         <a class="waves-effect waves-light btn-large green" href="" target="_blank"><i class="material-icons right">money</i>Expense Tracker</a>
-        <a class="waves-effect waves-light btn-large" href="https://docs.google.com/spreadsheets/d/16L1bHTgGgVI46zTYgLUPoWtuLtrI3LVUseShFmYmCv4/edit?usp=sharing" target="_blank"><i class="material-icons right">money</i>Analysis Spreadsheet</a>
+        <a class="waves-effect waves-light btn-large" href="https://docs.google.com/spreadsheets/d/16L1bHTgGgVI46zTYgLUPoWtuLtrI3LVUseShFmYmCv4/edit?usp=sharing" target="_blank"><i class="material-icons right">money</i>Spreadsheet</a>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./assets/images/2jan1_7_1348x500.jpg" />
+        </div>
+
     </div>
 
     <footer class="page-footer blue-grey darken">
+
         <div class="container">
+            <div class="col s12 m4">
+                <div class="card-panel teal z-depth-5">
+                    <span class="white-text" id="about">GC Rental manages and invests in rental properties in 
+                                the bay area as well as silicon valley! If you have a property you would like to get off your hands 
+                                contact us at GCRental510@Gmail.com! Thank you for visiting!</span>
+                </div>
+            </div>
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Contact Us</h5>

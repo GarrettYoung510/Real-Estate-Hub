@@ -15,3 +15,16 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+* {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#logo {
+    font-family: 'Lobster', cursive;
+}
+
+#about {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 18pt;
+}
